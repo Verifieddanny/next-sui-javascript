@@ -13,29 +13,34 @@ A modern JavaScript scaffold for building decentralized applications on the Sui 
 
 ## 🚀 Quick Start
 
-\`\`\`bash
+
 # Clone the repository
+```bash
 git clone <your-repo-url>
 cd next-sui-javascript
+```
 
 # Install dependencies
+```bash
 npm install
+```
 
 # Start development server
+```bash
 npm run dev
-\`\`\`
+```
 
 Open [http://localhost:3000](http://localhost:3000) to see your app.
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 ├── app/                    # Next.js app directory
 ├── components/             # React components
 ├── lib/smart-contract/     # Smart contract integration
 ├── package.json           # Dependencies
 └── tailwind.config.js     # Tailwind configuration
-\`\`\`
+```
 
 ## 🔧 Smart Contract Integration
 
@@ -63,9 +68,9 @@ This project is licensed under the MIT License.
 
 - [Sui Website](https://sui.io/)
 - [Sui Discord](https://discord.com/invite/Sui)
-- [DevDanny on X](https://twitter.com/devdanny)
-- [DevDanny on GitHub](https://github.com/devdanny)
-\`\`\`
+- [DevDanny on X](https://twitter.com/dannyclassi_c)
+- [DevDanny on GitHub](https://github.com/Verifieddanny)
+
 
 Perfect! I've created a complete JavaScript/JSX version of the Sui scaffold with:
 
