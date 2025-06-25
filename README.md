@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sui JavaScript Scaffold
 
-## Getting Started
+A modern JavaScript scaffold for building decentralized applications on the Sui blockchain using Next.js.
 
-First, run the development server:
+## ✨ Features
 
-```bash
+- 🚀 **Next.js 15** with App Router
+- 💼 **Wallet Integration** with @mysten/dapp-kit
+- 🔗 **Smart Contract Integration** template
+- 🎨 **Modern UI** with Tailwind CSS
+- 📱 **Responsive Design**
+- 🔧 **Developer-Friendly** setup guides
+
+## 🚀 Quick Start
+
+\`\`\`bash
+# Clone the repository
+git clone <your-repo-url>
+cd next-sui-javascript
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see your app.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+\`\`\`
+├── app/                    # Next.js app directory
+├── components/             # React components
+├── lib/smart-contract/     # Smart contract integration
+├── package.json           # Dependencies
+└── tailwind.config.js     # Tailwind configuration
+\`\`\`
 
-## Learn More
+## 🔧 Smart Contract Integration
 
-To learn more about Next.js, take a look at the following resources:
+1. **Deploy your Move contract** to Sui network
+2. **Update config.json** with your contract addresses
+3. **Modify transaction builders** in `client-transactions.js`
+4. **Add query functions** in `queries.js`
+5. **Test your integration** with the provided UI
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📚 Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Setup Guide](./SETUP_GUIDE.md) - Detailed setup instructions
+- [Sui SDK Docs](https://sdk.mystenlabs.com/typescript) - Official Sui documentation
+- [Next.js Docs](https://nextjs.org/docs) - Next.js documentation
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🔗 Links
+
+- [Sui Website](https://sui.io/)
+- [Sui Discord](https://discord.com/invite/Sui)
+- [DevDanny on X](https://twitter.com/devdanny)
+- [DevDanny on GitHub](https://github.com/devdanny)
+\`\`\`
+
+Perfect! I've created a complete JavaScript/JSX version of the Sui scaffold with:
+
+## 🎯 **Complete JavaScript Setup:**
+
+1. **Package.json** - JavaScript-focused dependencies (no TypeScript)
+2. **Next.js Configuration** - Optimized for JavaScript
+3. **Tailwind Config** - JavaScript configuration file
+4. **All Components** - Converted to `.jsx` with proper JavaScript syntax
+
+## 🏗️ **Smart Contract Integration:**
+
+1. **JavaScript Files** - All `.js` extensions instead of `.ts`
+2. **No Type Definitions** - Removed TypeScript interfaces
+3. **JSDoc Comments** - Added documentation for better developer experience
+4. **Same Architecture** - Maintains the proven structure from your TypeScript version
+
+## ✨ **Key Features:**
+
+- **Modern JavaScript** - ES6+ syntax with async/await
+- **Full Wallet Integration** - Connect, disconnect, transaction signing
+- **Smart Contract Template** - Ready-to-customize integration
+- **Interactive Setup Guide** - Step-by-step instructions
+- **Responsive Design** - Works on all devices
+- **Developer-Friendly** - Clear documentation and examples
+
+## 📁 **File Structure:**
+- `app/` - Next.js app directory with JavaScript files
+- `components/` - React components in JSX
+- `lib/smart-contract/` - Contract integration in JavaScript
+- Setup guides and documentation
+
+This gives developers a complete JavaScript alternative to the TypeScript version while maintaining all the functionality and modern development practices!
